@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign up now</title>
+    <style>
+        input[type=text]{
+            border: 5px solid black;
+            width: 200px;
+            margin: 20px;
+            
+        }
+        input[type=email] {
+            border: 5px solid black;
+            width: 200px;
+            margin: 20px;
+          } 
+        input[type=number] {
+            border: 5px solid black;
+            width: 200px;
+            margin: 20px;
+        }
+        
+        input[type=date] {
+            border: 5px solid black;
+            width: 200px;
+            margin: 20px;
+        }
+        input[type=checkbox] {
+            border: 5px solid black;
+            width: 200px;
+            margin-bottom: 20px;
+            margin-right: 1px;
+        }
+        .good{
+            background-color: blueviolet;
+            position: relative;
+        }
+       
+    </style>
+</head>
+<body class="good">
+    <form action="welcome.html">
+        <h1 style="font-family:Georgia, 'Times New Roman', Times, serif ;  "><u><b>Sign up page</b></u></h1>
+        <fieldset style="width: 220px;">
+        <legend  style="font-size: x-large; color:black;"><u><b>Signup</b></u></legend>
+        <input type="text"name="fname"placeholder="Enter the first name" required>
+        <input type="text"name="lname"placeholder="enter the last name"required>
+        <input type="email"name="email"placeholder="Enter the mail id"required>
+        <input type="number"name="number"placeholder="Enter the contact number"required step="5" min="4"max="200">
+        <input type="Date"name="fname">
+    
+    <fieldset>
+            <legend>Gender</legend>
+            <select name="Gender" id="gender">
+                <option value="">select</option>
+                <option value="">male</option>
+                <option value="">female</option>
+                <option value="">others</option>
+            </select><br>
+        </fieldset>
+        <fieldset>
+            <legend>Notification</legend>
+            <select name="" id="gender">
+                <option value="">select</option>
+                <option value="sms">sms</option>
+                <option value="mail">mail</option>
+                <option value="whatsapp">whatsapp</option>
+            </select><br>
+        </fieldset>
+
+        <input type="submit" value="create account"><input type="Reset">
+
+
+    </form>
+</body>
+</html>
